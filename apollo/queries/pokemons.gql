@@ -1,0 +1,13 @@
+# query pokemons($pokemonsFirst: Int!) {
+#   pokemons(first: $pokemonsFirst) {
+#     image
+#   }
+# }
+
+query pokemon {
+  pokemon(name: "Pikachu") {
+    id
+    number
+    name
+  }
+}
