@@ -5,7 +5,8 @@
         :src="pokemon.image"
         class="white--text align-end"
         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-        height="800px"
+        contain=true
+        height="800"
       >
         <v-card-title v-text="pokemon.name"></v-card-title>
       </v-img>
